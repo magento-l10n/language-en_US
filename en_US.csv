@@ -12,6 +12,7 @@ None,None
 "This item needs to be assigned to a store view. Assign item and try again.","This item needs to be assigned to a store view. Assign item and try again."
 "More permissions are needed to save this item.","More permissions are needed to save this item."
 "More permissions are needed to delete this item.","More permissions are needed to delete this item."
+"Not allowed to edit the category's design attributes","Not allowed to edit the category's design attributes"
 "At least one website or store group needs to be selected. Select and try again.","At least one website or store group needs to be selected. Select and try again."
 "More permissions are needed to set All Scopes to a Role.","More permissions are needed to set All Scopes to a Role."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","The ""%1"" website ID is incorrect. Verify the website ID and try again."
@@ -439,7 +440,17 @@ Environment,Environment
 options,options
 "Select all","Select all"
 "Deselect all","Deselect all"
+Selected,Selected
 "We couldn't find any records.","We couldn't find any records."
+" Item(s)"," Item(s)"
+"Items ","Items "
+" to "," to "
+" of "," of "
+" total"," total"
+Page,Page
+Previous,Previous
+"You're currently reading page","You're currently reading page"
+Next,Next
 Show,Show
 "per page","per page"
 "%s of %s selected","%s of %s selected"
@@ -642,6 +653,7 @@ System,System
 "An authentication error occurred. Verify and try again.","An authentication error occurred. Verify and try again."
 "The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again."
 "The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again."
+Today,Today
 "Last 24 Hours","Last 24 Hours"
 "Last 7 Days","Last 7 Days"
 "Current Month","Current Month"
@@ -686,8 +698,6 @@ Magento,Magento
 "Sign Out","Sign Out"
 "About the calendar","About the calendar"
 "Go Today","Go Today"
-Previous,Previous
-Next,Next
 WK,WK
 Time,Time
 Hour,Hour
@@ -699,7 +709,6 @@ Minute,Minute
 "Report an Issue","Report an Issue"
 Scope:,Scope:
 "Stores Configuration","Stores Configuration"
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Please confirm scope switching. All data that hasn't been saved will be lost."
 "Additional Cache Management","Additional Cache Management"
 "Flush Catalog Images Cache","Flush Catalog Images Cache"
 "Pregenerated product images files","Pregenerated product images files"
@@ -733,8 +742,11 @@ Loading...,Loading...
 "User agent exceptions override product and CMS pages rules.","User agent exceptions override product and CMS pages rules."
 "Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered."
 Examples,Examples
+"Previous Page","Previous Page"
+"Next Page","Next Page"
 "Use Default Value","Use Default Value"
 "We could not detect a size.","We could not detect a size."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Please confirm scope switching. All data that hasn't been saved will be lost."
 "Warning message","Warning message"
 "This operation can take a long time","This operation can take a long time"
 "Allow everything","Allow everything"
@@ -1366,6 +1378,7 @@ Separately,Separately
 "Please select all required options.","Please select all required options."
 "Option type (%types) should have only one element.","Option type (%types) should have only one element."
 "We can't add this item to your shopping cart right now.","We can't add this item to your shopping cart right now."
+"Product relations processor must implement %1.","Product relations processor must implement %1."
 N/A,N/A
 Percent,Percent
 "We can't save custom-defined options for bundles with dynamic pricing.","We can't save custom-defined options for bundles with dynamic pricing."
@@ -1681,7 +1694,6 @@ List,List
 "Static block and products","Static block and products"
 "Please select a static block.","Please select a static block."
 frontend_label,frontend_label
-"Not allowed to edit the category's design attributes","Not allowed to edit the category's design attributes"
 "Could not save product ""%1"" with position %2 to category %3","Could not save product ""%1"" with position %2 to category %3"
 "The category doesn't contain the specified product.","The category doesn't contain the specified product."
 "Could not save product ""%product"" with position %position to category %category","Could not save product ""%product"" with position %position to category %category"
@@ -2074,7 +2086,7 @@ Comma-separated.,Comma-separated.
 "Default Product Layout","Default Product Layout"
 "Default Category Layout","Default Category Layout"
 "Catalog media URL format","Catalog media URL format"
-"Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/m2/ee/user_guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>.","Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/m2/ee/user_guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>."
+"Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/user-guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>.","Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/user-guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>."
 Quality,Quality
 "Jpeg quality for resized images 1-100%.","Jpeg quality for resized images 1-100%."
 "Product Info Column","Product Info Column"
@@ -2312,10 +2324,10 @@ End,End
 "The ""%1"" value is invalid for stock ID. Enter stock with a default value of %2 to try again.","The ""%1"" value is invalid for stock ID. Enter stock with a default value of %2 to try again."
 "The ""%1"" value is invalid for stock item ID. Enter either zero or a number than zero to try again.","The ""%1"" value is invalid for stock item ID. Enter either zero or a number than zero to try again."
 "The ""%1"" value is invalid for stock item ID. Use the stock item ID's assigned ""%2"" value and try again.","The ""%1"" value is invalid for stock item ID. Use the stock item ID's assigned ""%2"" value and try again."
-"Not all of your products are available in the requested quantity.","Not all of your products are available in the requested quantity."
-"The fewest you may purchase is %1.","The fewest you may purchase is %1."
 "Please correct the quantity for some products.","Please correct the quantity for some products."
-"The most you may purchase is %1.","The most you may purchase is %1."
+"The fewest you may purchase is %1.","The fewest you may purchase is %1."
+"The requested qty exceeds the maximum qty allowed in shopping cart","The requested qty exceeds the maximum qty allowed in shopping cart"
+"You cannot use decimal quantity for this product.","You cannot use decimal quantity for this product."
 "The requested qty is not available","The requested qty is not available"
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We don't have as many ""%1"" as you requested, but we'll back order the remaining %2."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2."
@@ -2476,6 +2488,7 @@ Relevance,Relevance
 "The requested price is not found.","The requested price is not found."
 "Update %1 from %2 to %3.","Update %1 from %2 to %3."
 "Problem with creating product update.","Problem with creating product update."
+"%1 should implement %2","%1 should implement %2"
 View/Edit,View/Edit
 Preview,Preview
 "Set Product as New","Set Product as New"
@@ -2490,6 +2503,7 @@ Preview,Preview
 "Currently Active","Currently Active"
 Path,Path
 "Create Permanent Redirect for old URL","Create Permanent Redirect for old URL"
+"URL key for specified store already exists.","URL key for specified store already exists."
 "Can not change the visibility of the product with SKU equals ""%1"". URL key ""%2"" for specified store already exists.","Can not change the visibility of the product with SKU equals ""%1"". URL key ""%2"" for specified store already exists."
 "Invalid URL key. The ""%1"" URL key can not be used to generate Latin URL key. Please use Latin letters and numbers to avoid generating URL key issues.","Invalid URL key. The ""%1"" URL key can not be used to generate Latin URL key. Please use Latin letters and numbers to avoid generating URL key issues."
 "Invalid URL key. The ""%1"" category name can not be used to generate Latin URL key. Please add URL key or change category name using Latin letters and numbers to avoid generating URL key issues.","Invalid URL key. The ""%1"" category name can not be used to generate Latin URL key. Please add URL key or change category name using Latin letters and numbers to avoid generating URL key issues."
@@ -2505,7 +2519,6 @@ Path,Path
 "Catalog Products List","Catalog Products List"
 "List of Products","List of Products"
 "Products Grid Template","Products Grid Template"
-"Invalid method: %1","Invalid method: %1"
 "My Cart (1 item)","My Cart (1 item)"
 "My Cart (%1 items)","My Cart (%1 items)"
 "My Cart","My Cart"
@@ -2535,6 +2548,7 @@ Checkout,Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface"
 "Payment Method","Payment Method"
 "Payment Page","Payment Page"
+"Could not store billing/shipping information at the moment but you can proceed with the checkout","Could not store billing/shipping information at the moment but you can proceed with the checkout"
 "Please provide CAPTCHA code and try again","Please provide CAPTCHA code and try again"
 "The product wasn't found. Verify the product and try again.","The product wasn't found. Verify the product and try again."
 "We found an invalid request for adding product to quote.","We found an invalid request for adding product to quote."
@@ -2562,6 +2576,7 @@ Checkout,Checkout
 "Sorry, guest checkout is not available.","Sorry, guest checkout is not available."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link."
 "Load customer quote error","Load customer quote error"
+"Invalid method: %1","Invalid method: %1"
 Error!,Error!
 "DB exception","DB exception"
 "Print receipt","Print receipt"
@@ -2600,6 +2615,9 @@ Total:,Total:
 "My billing and shipping address are the same","My billing and shipping address are the same"
 Update,Update
 "Save in address book","Save in address book"
+"Enter your billing address to get a tax estimate.","Enter your billing address to get a tax estimate."
+"Enter your destination to get a shipping estimate.","Enter your destination to get a shipping estimate."
+"Sorry, no quotes are available for this order at this time","Sorry, no quotes are available for this order at this time"
 "Estimated Total","Estimated Total"
 "You can create an account after checkout.","You can create an account after checkout."
 "You already have an account with us. Sign in or continue as guest.","You already have an account with us. Sign in or continue as guest."
@@ -2611,6 +2629,7 @@ of,of
 "View and Edit Cart","View and Edit Cart"
 "See Details","See Details"
 "Options Details","Options Details"
+"Edit item","Edit item"
 "Cart Subtotal","Cart Subtotal"
 "No Payment Methods","No Payment Methods"
 "No Payment method available.","No Payment method available."
@@ -2627,7 +2646,6 @@ edit,edit
 "Shipping Address","Shipping Address"
 "New Address","New Address"
 "Shipping Methods","Shipping Methods"
-"Sorry, no quotes are available for this order at this time","Sorry, no quotes are available for this order at this time"
 "Order Summary","Order Summary"
 "Provided Zip/Postal Code seems to be invalid.","Provided Zip/Postal Code seems to be invalid."
 " Example: "," Example: "
@@ -2773,10 +2791,13 @@ Pages,Pages
 "The page URL key can't use capital letters or disallowed symbols. Remove the letters and symbols and try again.","The page URL key can't use capital letters or disallowed symbols. Remove the letters and symbols and try again."
 "The page URL key can't use only numbers. Add letters or words and try again.","The page URL key can't use only numbers. Add letters or words and try again."
 "Please rename the folder using only Latin letters, numbers, underscores and dashes.","Please rename the folder using only Latin letters, numbers, underscores and dashes."
+"We cannot create the folder under the selected directory.","We cannot create the folder under the selected directory."
 "We found a directory with the same name. Please try another folder name.","We found a directory with the same name. Please try another folder name."
 "We cannot create a new directory.","We cannot create a new directory."
+"We cannot delete the selected directory.","We cannot delete the selected directory."
 "We cannot delete directory %1.","We cannot delete directory %1."
-"We can't upload the file to current folder right now. Please try another folder.","We can't upload the file to current folder right now. Please try another folder."
+"We can't delete the file right now.","We can't delete the file right now."
+"We can't upload the file to the current folder right now. Please try another folder.","We can't upload the file to the current folder right now. Please try another folder."
 "We can't upload the file right now.","We can't upload the file right now."
 "We can't delete root directory %1 right now.","We can't delete root directory %1 right now."
 "Temporarily allowed to save HTML value that contains restricted elements. %1","Temporarily allowed to save HTML value that contains restricted elements. %1"
@@ -2797,7 +2818,7 @@ View,View
 "Edit Page Design","Edit Page Design"
 "Media Gallery","Media Gallery"
 "Content Management","Content Management"
-"TinyMCE 4","TinyMCE 4"
+"TinyMCE 5","TinyMCE 5"
 "CMS Home Page","CMS Home Page"
 "CMS No Route Page","CMS No Route Page"
 "CMS No Cookies Page","CMS No Cookies Page"
@@ -2879,6 +2900,7 @@ Prefix:,Prefix:
 Suffix:,Suffix:
 Gender:,Gender:
 Duplicated,Duplicated
+title,title
 "Company Structure","Company Structure"
 "New Company","New Company"
 "Thank you! We're reviewing your request and will contact you soon","Thank you! We're reviewing your request and will contact you soon"
@@ -2999,6 +3021,7 @@ Company:,Company:
 "VAT/TAX ID","VAT/TAX ID"
 "Re-seller ID","Re-seller ID"
 "Legal Address","Legal Address"
+"Please select an option.","Please select an option."
 "Please select a region, state or province.","Please select a region, state or province."
 "Phone Number","Phone Number"
 "Company Administrator","Company Administrator"
@@ -3242,7 +3265,6 @@ Reverted,Reverted
                         Customers will not be able to place orders until you update the credit currency."
 "Store Credit","Store Credit"
 "Refund to Company Credit","Refund to Company Credit"
-"An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.","An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity."
 "We refunded %1 online.","We refunded %1 online."
 "We refunded %1 offline.","We refunded %1 offline."
 "We refunded %1 to the company credit.","We refunded %1 to the company credit."
@@ -3343,7 +3365,6 @@ Add,Add
 "Add \Exception","Add \Exception"
 "-- No Theme --","-- No Theme --"
 "The class for ""%1"" type wasn't declared. Enter the class and try again.","The class for ""%1"" type wasn't declared. Enter the class and try again."
-"%1 should implement %2","%1 should implement %2"
 "The value you set has already been locked. To change the value, use the --%1 option.","The value you set has already been locked. To change the value, use the --%1 option."
 %1,%1
 "You saved the configuration.","You saved the configuration."
@@ -3380,7 +3401,6 @@ Add,Add
 Bcc,Bcc
 "Separate Email","Separate Email"
 "%1 (Default)","%1 (Default)"
-title,title
 Optional,Optional
 "HTTP (unsecure)","HTTP (unsecure)"
 "HTTPS (SSL)","HTTPS (SSL)"
@@ -3513,13 +3533,13 @@ Select,Select
 "Create Product Configurations","Create Product Configurations"
 "Buy %1 for %2 each and","Buy %1 for %2 each and"
 save,save
+"Disable Product","Disable Product"
+"Enable Product","Enable Product"
 "New Product Review","New Product Review"
 "Here are the products you're about to create.","Here are the products you're about to create."
 "You created these products for this configuration.","You created these products for this configuration."
 "Disassociated Products","Disassociated Products"
 "These products are not associated.","These products are not associated."
-"Disable Product","Disable Product"
-"Enable Product","Enable Product"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","An attribute has been removed. This attribute will no longer appear in your configurations."
 "Select options for all attributes or remove unused attributes.","Select options for all attributes or remove unused attributes."
 "Choose this option to delete and replace extension data for all past configurations.","Choose this option to delete and replace extension data for all past configurations."
@@ -3686,6 +3706,8 @@ Subscribed,Subscribed
 "Group Name","Group Name"
 "Maximum length must be less then %1 characters.","Maximum length must be less then %1 characters."
 "Tax Class","Tax Class"
+"Excluded Website(s)","Excluded Website(s)"
+"Select websites you want to exclude from this customer group.","Select websites you want to exclude from this customer group."
 "The customer is now assigned to Customer Group %s.","The customer is now assigned to Customer Group %s."
 "Would you like to change the Customer Group for this order?","Would you like to change the Customer Group for this order?"
 "The VAT ID is valid.","The VAT ID is valid."
@@ -3698,7 +3720,6 @@ Subscribed,Subscribed
 "There was an error detecting Customer Group.","There was an error detecting Customer Group."
 "Validate VAT Number","Validate VAT Number"
 "Date of Birth","Date of Birth"
-Today,Today
 "Bad request.","Bad request."
 "This confirmation key is invalid or has expired.","This confirmation key is invalid or has expired."
 "There was an error confirming the account","There was an error confirming the account"
@@ -3789,6 +3810,7 @@ Today,Today
 "The password token is mismatched. Reset and try again.","The password token is mismatched. Reset and try again."
 "The password token is expired. Reset and try again.","The password token is expired. Reset and try again."
 "The transactional account email type is incorrect. Verify and try again.","The transactional account email type is incorrect. Verify and try again."
+"Provided customer ID ""%customer_id"" isn't related to current customer address.","Provided customer ID ""%customer_id"" isn't related to current customer address."
 """%1"" is a required value.","""%1"" is a required value."
 "Per Website","Per Website"
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","We can't share customer accounts globally when the accounts share identical email addresses on more than one website."
@@ -3829,12 +3851,20 @@ Today,Today
 """%1"" height exceeds allowed value of %2 px.","""%1"" height exceeds allowed value of %2 px."
 """%1"" length must be equal or greater than %2 characters.","""%1"" length must be equal or greater than %2 characters."
 """%1"" length must be equal or less than %2 characters.","""%1"" length must be equal or less than %2 characters."
+"Could not delete customer group website with ID: %1","Could not delete customer group website with ID: %1"
+"Could not save customer group website to exclude with ID: %1","Could not save customer group website to exclude with ID: %1"
 "The customer email is missing. Enter and try again.","The customer email is missing. Enter and try again."
 "A customer website ID wasn't specified. The ID must be specified to use the website scope.","A customer website ID wasn't specified. The ID must be specified to use the website scope."
 "The specified customer group id does not exist.","The specified customer group id does not exist."
 "You can't delete group ""%1"".","You can't delete group ""%1""."
+"Could not save customer group website to exclude from customer group: ""%1""","Could not save customer group website to exclude from customer group: ""%1"""
+"Could not retrieve excluded customer group websites by customer group: ""%1""","Could not retrieve excluded customer group websites by customer group: ""%1"""
+"Could not retrieve all excluded customer group websites.","Could not retrieve all excluded customer group websites."
+"Could not delete customer group with its excluded websites.","Could not delete customer group with its excluded websites."
+"Could not delete customer group excluded website by id.","Could not delete customer group excluded website by id."
 "Customer Group already exists.","Customer Group already exists."
 "Cannot delete group.","Cannot delete group."
+"The session has expired, please login again.","The session has expired, please login again."
 "Error during VAT Number verification.","Error during VAT Number verification."
 "PHP SOAP extension is required.","PHP SOAP extension is required."
 "VAT Number is valid.","VAT Number is valid."
@@ -3845,6 +3875,7 @@ Today,Today
 "The VAT ID entered (%1) is not a valid VAT ID.","The VAT ID entered (%1) is not a valid VAT ID."
 "Your Tax ID cannot be validated.","Your Tax ID cannot be validated."
 "If you believe this is an error, please contact us at %1","If you believe this is an error, please contact us at %1"
+"This website is excluded from customer's group.","This website is excluded from customer's group."
 Male,Male
 Female,Female
 "Not Specified","Not Specified"
@@ -3856,6 +3887,7 @@ InputException,InputException
 "Localized Exception","Localized Exception"
 Street,Street
 "NOT LOGGED IN","NOT LOGGED IN"
+"File with an extension php is protected and cannot be uploaded","File with an extension php is protected and cannot be uploaded"
 "Please enter the state/province.","Please enter the state/province."
 "region is a required field.","region is a required field."
 """regionId"" is required. Enter and try again.","""regionId"" is required. Enter and try again."
@@ -3961,6 +3993,7 @@ Password:,Password:
 "Track order history","Track order history"
 "Check out faster","Check out faster"
 "Checkout using your account","Checkout using your account"
+"Show Password","Show Password"
 "Could not authenticate. Please try again later","Could not authenticate. Please try again later"
 "Are you sure you want to delete this address?","Are you sure you want to delete this address?"
 Weak,Weak
@@ -4811,6 +4844,7 @@ hello,hello
 "Error filtering template: %s","Error filtering template: %s"
 "We're sorry, an error has occurred while generating this content.","We're sorry, an error has occurred while generating this content."
 "Invalid sender data","Invalid sender data"
+"Unable to send mail. Please try again later.","Unable to send mail. Please try again later."
 expectedResult,expectedResult
 "Load Default Template","Load Default Template"
 "Are you sure you want to strip tags?","Are you sure you want to strip tags?"
@@ -5049,7 +5083,6 @@ Numeric,Numeric
 Generate,Generate
 "Code Pool used: ","Code Pool used: "
 " (free "," (free "
-" of "," of "
 " total)."," total)."
 "Refund Gift Cards to Store Credit","Refund Gift Cards to Store Credit"
 "Amount can be returned to Store Credit.","Amount can be returned to Store Credit."
@@ -5231,12 +5264,16 @@ Private,Private
 "We cannot specify the product.","We cannot specify the product."
 "The gift registry item quantity is incorrect. Verify the item quantity and try again.","The gift registry item quantity is incorrect. Verify the item quantity and try again."
 "The gift registry item ID is incorrect. Verify the gift registry item ID and try again.","The gift registry item ID is incorrect. Verify the gift registry item ID and try again."
+"The registrant with ID=%1 doesn't belong to the current gift registry.","The registrant with ID=%1 doesn't belong to the current gift registry."
+"We can't add product to the gift registry right now.","We can't add product to the gift registry right now."
+"The registrant with id=""%1"" was not found.","The registrant with id=""%1"" was not found."
 "The quantity of ""%1"" product added to cart exceeds the quantity desired by the Gift Registry owner. The quantity added has been adjusted to meet remaining quantity %2.","The quantity of ""%1"" product added to cart exceeds the quantity desired by the Gift Registry owner. The quantity added has been adjusted to meet remaining quantity %2."
 "Existing quantity of ""%1"" product in the cart has been replaced with quantity %2 just requested.","Existing quantity of ""%1"" product in the cart has been replaced with quantity %2 just requested."
 "This product(s) is out of stock.","This product(s) is out of stock."
 "Please correct the product for adding the item to the quote.","Please correct the product for adding the item to the quote."
 "Please correct the item option format.","Please correct the item option format."
 "An item option with code %1 already exists.","An item option with code %1 already exists."
+"GiftRegistry item filters must implement %1.","GiftRegistry item filters must implement %1."
 New,New
 "Please enter the first name.","Please enter the first name."
 "Please enter the last name.","Please enter the last name."
@@ -5310,6 +5347,7 @@ Location,Location
 "You can view and purchase items from this gift registry at <a href='%account_url'>%store_name</a>.","You can view and purchase items from this gift registry at <a href='%account_url'>%store_name</a>."
 "Gift Registry:","Gift Registry:"
 "Created For:","Created For:"
+"<strong>Registry Location:</strong> <a href='%registry_url'>%registry_url</a>","<strong>Registry Location:</strong> <a href='%registry_url'>%registry_url</a>"
 "You can create your own gift registry on <a href='%account_url'>%store_name</a> and share it with friends and family.","You can create your own gift registry on <a href='%account_url'>%store_name</a> and share it with friends and family."
 "Gift Registry updated at %store_name","Gift Registry updated at %store_name"
 "The following items have been purchased from your gift registry ""%registry_name"":","The following items have been purchased from your gift registry ""%registry_name"":"
@@ -5552,7 +5590,6 @@ Replace,Replace
 "Add/Update Complex Data","Add/Update Complex Data"
 "Delete Entities","Delete Entities"
 "Custom Action","Custom Action"
-"URL key for specified store already exists.","URL key for specified store already exists."
 "Entity 1","Entity 1"
 "File Format 1","File Format 1"
 "Are you sure you wan't to delete a file?","Are you sure you wan't to delete a file?"
@@ -5574,7 +5611,6 @@ User,User
 Ready,Ready
 Processing,Processing
 "has been rebuilt successfully in %time","has been rebuilt successfully in %time"
-"exception: %message","exception: %message"
 "%1 index is locked by another reindex process. Skipping.","%1 index is locked by another reindex process. Skipping."
 "Index Management","Index Management"
 "Please select indexers.","Please select indexers."
@@ -5651,7 +5687,7 @@ Reauthorize,Reauthorize
 "The tokens couldn't be revoked.","The tokens couldn't be revoked."
 "An error occurred during the attempt to grant permissions. For details, see the exceptions log.","An error occurred during the attempt to grant permissions. For details, see the exceptions log."
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Something went wrong while deleting roles and permissions. You can find out more in the exceptions log."
-"This customer has no tokens.","This customer has no tokens."
+"Failed to revoke customer's access tokens","Failed to revoke customer's access tokens"
 "The integration with name ""%1"" exists.","The integration with name ""%1"" exists."
 "The integration with ID ""%1"" doesn't exist.","The integration with ID ""%1"" doesn't exist."
 "One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs."
@@ -5972,6 +6008,7 @@ Synchronizing...,Synchronizing...
 "The ""%1"" file doesn't exist. Verify the file and try again.","The ""%1"" file doesn't exist. Verify the file and try again."
 "File %1 is not readable","File %1 is not readable"
 "File System","File System"
+"Database (Deprecated)","Database (Deprecated)"
 "Sorry, something went wrong during image resize. Please see log for details.","Sorry, something went wrong during image resize. Please see log for details."
 "database ""%1""","database ""%1"""
 "Parent directory does not exist: %1","Parent directory does not exist: %1"
@@ -6429,12 +6466,13 @@ Expires:,Expires:
 "Your quote ","Your quote "
 " has been declined by the seller."," has been declined by the seller."
 "Reason: %reason.","Reason: %reason."
+"%customer_name,","%customer_name,"
+%quote_id,%quote_id
 " expires on "," expires on "
 " after which time you can’t order the items in the quote. After the expiration,
     you’ll have to negotiate the price with the seller again."," after which time you can’t order the items in the quote. After the expiration,
     you’ll have to negotiate the price with the seller again."
 "%merchant_name,","%merchant_name,"
-%quote_id,%quote_id
 "The quote ","The quote "
 " after which time it will be reset to its default expiration period. To extend the
     lifetime of the quote, update its expiration date."," after which time it will be reset to its default expiration period. To extend the
@@ -6506,6 +6544,7 @@ Quote,Quote
 "Quote Expiration (in 48 hrs)","Quote Expiration (in 48 hrs)"
 "Quote Expiration (in 24 hrs)","Quote Expiration (in 24 hrs)"
 "Expiration Date Reset","Expiration Date Reset"
+"Expiration Date Occurred","Expiration Date Occurred"
 "Send Quote Email Copy To","Send Quote Email Copy To"
 "Send Quote Email Copy Method","Send Quote Email Copy Method"
 "Request, Edit, Delete","Request, Edit, Delete"
@@ -7059,6 +7098,19 @@ Installment,Installment
 "Every 30 days","Every 30 days"
 "Every 40 days","Every 40 days"
 "No Logo","No Logo"
+White,White
+"White No Border","White No Border"
+Gray,Gray
+Monochrome,Monochrome
+Grayscale,Grayscale
+Left,Left
+Right,Right
+Top,Top
+Primary,Primary
+Alternative,Alternative
+Inline,Inline
+Sidebar,Sidebar
+Flex,Flex
 "Yes (PayPal recommends this option)","Yes (PayPal recommends this option)"
 "Created billing agreement #%1.","Created billing agreement #%1."
 "We can't create a billing agreement for this order.","We can't create a billing agreement for this order."
@@ -7094,7 +7146,6 @@ Create...,Create...
 "Your credit card will be charged for","Your credit card will be charged for"
 "Your billing agreement # is: ","Your billing agreement # is: "
 "Please select a shipping method...","Please select a shipping method..."
-"Update Shipping Method","Update Shipping Method"
 "Buy now with PayPal","Buy now with PayPal"
 "Edit Payment Information","Edit Payment Information"
 "Items in Your Shopping Cart","Items in Your Shopping Cart"
@@ -7134,6 +7185,13 @@ Manage,Manage
 "Accept credit card and PayPal payments securely.","Accept credit card and PayPal payments securely."
 "Basic Settings - PayPal Website Payments Standard","Basic Settings - PayPal Website Payments Standard"
 "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>","PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+"Display pay later messaging on your site for offers like Pay in 3,
+                                    which lets customers pay with 3 interest- free monthly payments. We’ll show messages
+                                    on your site to promote this feature for you. You may not promote pay later offers
+                                    with any other content, marketing, or materials.","Display pay later messaging on your site for offers like Pay in 3,
+                                    which lets customers pay with 3 interest- free monthly payments. We’ll show messages
+                                    on your site to promote this feature for you. You may not promote pay later offers
+                                    with any other content, marketing, or materials."
 "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
 "Accept payments with a completely customizable checkout page.","Accept payments with a completely customizable checkout page."
 "Website Payments Standard","Website Payments Standard"
@@ -7164,6 +7222,14 @@ Manage,Manage
                         You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
                         <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>"
 "Sort Order PayPal Credit","Sort Order PayPal Credit"
+"Enable PayPal PayLater Experience","Enable PayPal PayLater Experience"
+"Recommended. <strong>Advertise PayPal Credit</strong> is deprecated.
+                    See PayPal PayLater details and list of supported regions
+                    <a href=""https://developer.paypal.com/docs/business/pay-later/us/#eligibility"" target=""_blank"">
+                    here</a>.","Recommended. <strong>Advertise PayPal Credit</strong> is deprecated.
+                    See PayPal PayLater details and list of supported regions
+                    <a href=""https://developer.paypal.com/docs/business/pay-later/us/#eligibility"" target=""_blank"">
+                    here</a>."
 "Advertise PayPal Credit","Advertise PayPal Credit"
 "<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
                         <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
@@ -7184,6 +7250,16 @@ Display,Display
 "Catalog Category Page","Catalog Category Page"
 "Catalog Product Page","Catalog Product Page"
 "Checkout Cart Page","Checkout Cart Page"
+"Advertise PayPal PayLater","Advertise PayPal PayLater"
+"Enable PayPal PayLater","Enable PayPal PayLater"
+"Style Layout","Style Layout"
+"Logo Type","Logo Type"
+"Logo Position","Logo Position"
+"Text Color","Text Color"
+"Text Size","Text Size"
+Ratio,Ratio
+Color,Color
+"Checkout Payment Step","Checkout Payment Step"
 "Basic Settings - PayPal Express Checkout","Basic Settings - PayPal Express Checkout"
 "Display on Product Details Page","Display on Product Details Page"
 "Authorization Honor Period (days)","Authorization Honor Period (days)"
@@ -7241,7 +7317,6 @@ Display,Display
 "Mexico Installment Period","Mexico Installment Period"
 "Brazil Installment Period","Brazil Installment Period"
 Shape,Shape
-Color,Color
 "Product Pages","Product Pages"
 "Cart Page","Cart Page"
 Features,Features
@@ -7368,6 +7443,9 @@ Vendor,Vendor
 "The product was not found.","The product was not found."
 "You will no longer receive stock alerts.","You will no longer receive stock alerts."
 "Invalid block type: %1","Invalid block type: %1"
+"Product alerts are sent successfully.","Product alerts are sent successfully."
+"Sorry, something went wrong during mailing product alerts. Please see log for details.","Sorry, something went wrong during mailing product alerts. Please see log for details."
+"Mailing of Product Alerts","Mailing of Product Alerts"
 "Price change alert! We wanted you to know that prices have changed for these products:","Price change alert! We wanted you to know that prices have changed for these products:"
 Price:,Price:
 "Click here to stop alerts for this product.","Click here to stop alerts for this product."
@@ -7406,6 +7484,7 @@ Duration:,Duration:
 "Youtube API key is invalid","Youtube API key is invalid"
 "Video cant be shown due to the following reason: ","Video cant be shown due to the following reason: "
 "Video not found","Video not found"
+"Because of its privacy settings, this video cannot be played here.","Because of its privacy settings, this video cannot be played here."
 "New Video","New Video"
 "Edit Video","Edit Video"
 "Images and Videos","Images and Videos"
@@ -7488,6 +7567,7 @@ Duration:,Duration:
 "Entity Id does not exist","Entity Id does not exist"
 Carts,Carts
 "Manage carts","Manage carts"
+"Enable Inventory Check On Cart Load","Enable Inventory Check On Cart Load"
 "Please check the shipping address information.","Please check the shipping address information."
 "Please check the billing address information.","Please check the billing address information."
 "Enter a valid payment method and try again.","Enter a valid payment method and try again."
@@ -7850,7 +7930,6 @@ Rename,Rename
 "Update List","Update List"
 "Delete Requisition List","Delete Requisition List"
 "You have no items in this requisition list.","You have no items in this requisition list."
-"Edit item","Edit item"
 "With Selected","With Selected"
 "Copy Selected","Copy Selected"
 Copy,Copy
@@ -8773,7 +8852,6 @@ Complete,Complete
 "Product doesn't exist","Product doesn't exist"
 "Email has not been sent","Email has not been sent"
 "Authorized amount of %1","Authorized amount of %1"
-" Transaction ID: ""%1"""," Transaction ID: ""%1"""
 "Sample message.","Sample message."
 "Group was removed","Group was removed"
 "Update Totals","Update Totals"
@@ -8882,7 +8960,6 @@ Complete,Complete
 "Your Invoice #%invoice_id for Order #%order_id","Your Invoice #%invoice_id for Order #%order_id"
 "Update to your %store_name invoice","Update to your %store_name invoice"
 "Your %store_name order confirmation","Your %store_name order confirmation"
-"%customer_name,","%customer_name,"
 "Once your package ships we will send you a tracking number.","Once your package ships we will send you a tracking number."
 "Your Order <span class=""no-link"">#%increment_id</span>","Your Order <span class=""no-link"">#%increment_id</span>"
 "Placed on <span class=""no-link"">%created_at</span>","Placed on <span class=""no-link"">%created_at</span>"
@@ -9035,6 +9112,7 @@ Coupons/Discounts,Coupons/Discounts
 "We can't delete the rule right now. Please review the log and try again.","We can't delete the rule right now. Please review the log and try again."
 "New Cart Price Rule","New Cart Price Rule"
 "Rule is not defined","Rule is not defined"
+"The rule coupon settings changed. Please save the rule before using auto-generation.","The rule coupon settings changed. Please save the rule before using auto-generation."
 "Message is added to queue, wait to get your coupons soon","Message is added to queue, wait to get your coupons soon"
 "Invalid data provided","Invalid data provided"
 "Something went wrong while generating coupons. Please review the log and try again.","Something went wrong while generating coupons. Please review the log and try again."
@@ -9263,6 +9341,7 @@ Synonyms,Synonyms
 "Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms."
 "Merge existing synonyms","Merge existing synonyms"
 "Are you sure you want to delete the selected synonym groups?","Are you sure you want to delete the selected synonym groups?"
+modal_title_text,modal_title_text
 "Account Activity","Account Activity"
 "All other open sessions for this account were terminated.","All other open sessions for this account were terminated."
 "We couldn't logout because of an error.","We couldn't logout because of an error."
@@ -9281,6 +9360,9 @@ Synonyms,Synonyms
 "Are you sure that you want to log out all other sessions?","Are you sure that you want to log out all other sessions?"
 "Log out all other sessions","Log out all other sessions"
 "This computer is using IP address %1.","This computer is using IP address %1."
+Warning,Warning
+": You are about to set max session size in admin to be lower than recommended default session size. Low max session size in admin could break admin functionalities such as admin panel login. Are you sure you want to make this change?",": You are about to set max session size in admin to be lower than recommended default session size. Low max session size in admin could break admin functionalities such as admin panel login. Are you sure you want to make this change?"
+": You are about to set max session size in storefront to be lower than  recommended default session size. Low max session size in storefront could break storefront functionalities such as customer login. Are you sure you want to make this change?",": You are about to set max session size in storefront to be lower than  recommended default session size. Low max session size in storefront could break storefront functionalities such as customer login. Are you sure you want to make this change?"
 "Admin Account Sharing","Admin Account Sharing"
 "If set to Yes, you can log in from multiple computers into same account. Default setting No improves security.","If set to Yes, you can log in from multiple computers into same account. Default setting No improves security."
 "Password Reset Protection Type","Password Reset Protection Type"
@@ -9288,6 +9370,8 @@ Synonyms,Synonyms
 "Limit the number of password reset request per hour. Use 0 to disable.","Limit the number of password reset request per hour. Use 0 to disable."
 "Min Time Between Password Reset Requests","Min Time Between Password Reset Requests"
 "Delay in minutes between password reset requests. Use 0 to disable.","Delay in minutes between password reset requests. Use 0 to disable."
+"Max Session Size in Admin","Max Session Size in Admin"
+"Max Session Size in Storefront","Max Session Size in Storefront"
 "You can't send messages more than %1 times an hour.","You can't send messages more than %1 times an hour."
 "The link to a friend was sent.","The link to a friend was sent."
 "We found some problems with the data.","We found some problems with the data."
@@ -9306,7 +9390,7 @@ Synonyms,Synonyms
 "Remove Recipent","Remove Recipent"
 "Welcome, %name","Welcome, %name"
 "%sender_name wants to share this product with you:","%sender_name wants to share this product with you:"
-"We strongly recommend to enable a <a href=""https://devdocs.magento.com/guides/v2.3/security/google-recaptcha.html"" target=""_blank"">CAPTCHA solution</a> alongside enabling ""Email to a Friend"" to ensure abuse of this feature does not occur.","We strongly recommend to enable a <a href=""https://devdocs.magento.com/guides/v2.3/security/google-recaptcha.html"" target=""_blank"">CAPTCHA solution</a> alongside enabling ""Email to a Friend"" to ensure abuse of this feature does not occur."
+"We strongly recommend to enable a <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA solution</a> alongside enabling ""Email to a Friend"" to ensure abuse of this feature does not occur.","We strongly recommend to enable a <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA solution</a> alongside enabling ""Email to a Friend"" to ensure abuse of this feature does not occur."
 "Select Email Template","Select Email Template"
 "Allow for Guests","Allow for Guests"
 "Max Recipients","Max Recipients"
@@ -9510,7 +9594,7 @@ Track:,Track:
 "See our Shipping Policy","See our Shipping Policy"
 "Shipping Settings Section","Shipping Settings Section"
 "Shipping Policy Parameters Section","Shipping Policy Parameters Section"
-"Shipping Methods Section","Shipping Methods Section"
+"Delivery Methods Section","Delivery Methods Section"
 "Shipping Settings","Shipping Settings"
 Origin,Origin
 "Shipping Policy Parameters","Shipping Policy Parameters"
@@ -9652,11 +9736,11 @@ entity_type,entity_type
 Test,Test
 "This action is unavailable","This action is unavailable"
 Calendar,Calendar
-Selected,Selected
 "Selected Update\:","Selected Update\:"
 "Starting\:","Starting\:"
 "Ending\:","Ending\:"
 "This update includes","This update includes"
+Objects,Objects
 "To Start","To Start"
 "To End","To End"
 "Belongs to ","Belongs to "
@@ -9681,12 +9765,12 @@ Includes,Includes
 "Store with the same code","Store with the same code"
 "Website with the same code","Website with the same code"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter."
-"Name is required","Name is required"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter."
 "Store is inactive","Store is inactive"
 "Invalid store parameter.","Invalid store parameter."
 "Default store is inactive","Default store is inactive"
 "The store cannot be switched.","The store cannot be switched."
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter."
+"Name is required","Name is required"
 "The default website isn't defined. Set the website and try again.","The default website isn't defined. Set the website and try again."
 "The default website is invalid. Make sure no more than one default is defined and try again.","The default website is invalid. Make sure no more than one default is defined and try again."
 "no such entity exception","no such entity exception"
@@ -9877,7 +9961,6 @@ Method,Method
 Collapse,Collapse
 Expand,Expand
 " (no data)"," (no data)"
-Top,Top
 "No data","No data"
 "Support Data Collector","Support Data Collector"
 "Support System Report","Support System Report"
@@ -10141,8 +10224,10 @@ Themes,Themes
 "Allowed file types *.js.","Allowed file types *.js."
 "Insert File","Insert File"
 welcome,welcome
+"We cannot find a theme with id ""%1"".","We cannot find a theme with id ""%1""."
 "You deleted the theme.","You deleted the theme."
 "We cannot delete the theme.","We cannot delete the theme."
+"Theme not found: ""%1"".","Theme not found: ""%1""."
 "File not found: ""%1"".","File not found: ""%1""."
 "We can't find file.","We can't find file."
 "We cannot find theme ""%1"".","We cannot find theme ""%1""."
@@ -10150,7 +10235,6 @@ welcome,welcome
 "This theme is not editable.","This theme is not editable."
 "You saved the theme.","You saved the theme."
 "We can't upload the CSS file right now.","We can't upload the CSS file right now."
-"We cannot find a theme with id ""%1"".","We cannot find a theme with id ""%1""."
 "We can't upload the JS file right now.","We can't upload the JS file right now."
 "Sorry, something went wrong. That's all we know.","Sorry, something went wrong. That's all we know."
 "Invalid type","Invalid type"
@@ -10188,8 +10272,7 @@ thumbnail,thumbnail
 "This is a demo store. No orders will be fulfilled.","This is a demo store. No orders will be fulfilled."
 "Items %1 to %2 of %3 total","Items %1 to %2 of %3 total"
 "%1 Item(s)","%1 Item(s)"
-Page,Page
-"You're currently reading page","You're currently reading page"
+"Skip to page %1","Skip to page %1"
 "The store will not work correctly in the case when cookies are disabled.","The store will not work correctly in the case when cookies are disabled."
 "We don't recognize this file extension.","We don't recognize this file extension."
 "1 column","1 column"
@@ -10261,6 +10344,9 @@ Translations,Translations
 "Select from Gallery","Select from Gallery"
 "Allowed file types","Allowed file types"
 "Save View As...","Save View As..."
+"Save all changes","Save all changes"
+"Delete bookmark","Delete bookmark"
+"Edit bookmark","Edit bookmark"
 Columns,Columns
 "All in Column","All in Column"
 "Please make corrections to the errors in the table below and re-submit.","Please make corrections to the errors in the table below and re-submit."
@@ -10314,7 +10400,6 @@ Keyword,Keyword
 "Please enter a valid IP v6 address.","Please enter a valid IP v6 address."
 "Invalid format.","Invalid format."
 "HTML tags are not allowed.","HTML tags are not allowed."
-"Please select an option.","Please select an option."
 "Empty Value.","Empty Value."
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field."
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter."
@@ -10345,8 +10430,8 @@ Keyword,Keyword
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"")."
 "Please enter a valid zip code.","Please enter a valid zip code."
 "Please select State/Province.","Please select State/Province."
-"Please enter a value less than or equal to {0}.","Please enter a value less than or equal to {0}."
-"Please enter a value greater than or equal to {0}.","Please enter a value greater than or equal to {0}."
+"Please enter a value less than or equal to %s.","Please enter a value less than or equal to %s."
+"Please enter a value greater than or equal to %s.","Please enter a value greater than or equal to %s."
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com."
 "Please enter issue number or start date for switch/solo card type.","Please enter issue number or start date for switch/solo card type."
 "Please enter positive number in this field.","Please enter positive number in this field."
@@ -10905,6 +10990,7 @@ Sort,Sort
 "The consumer isn't authorized to access %resources.","The consumer isn't authorized to access %resources."
 "Operation allowed only in HTTPS","Operation allowed only in HTTPS"
 "Cannot perform GET operation with store code 'all'","Cannot perform GET operation with store code 'all'"
+"'The current request does not expect the next parameters: ' .","'The current request does not expect the next parameters: ' ."
 "Specified request cannot be processed.","Specified request cannot be processed."
 "Request does not match any route.","Request does not match any route."
 "Not allowed parameters: %1. Please use only %2 and %3.","Not allowed parameters: %1. Please use only %2 and %3."
@@ -10953,6 +11039,9 @@ label_value,label_value
 Country/State,Country/State
 "Total Incl. Tax","Total Incl. Tax"
 "Final Price","Final Price"
+"Incl. tax","Incl. tax"
+"Excl. tax","Excl. tax"
+"Total incl. tax","Total incl. tax"
 "Fixed Product Taxes","Fixed Product Taxes"
 "Enable FPT","Enable FPT"
 "Display Prices In Product Lists","Display Prices In Product Lists"
@@ -11123,9 +11212,7 @@ Worldpay,Worldpay
 "Store alternative addresses","Store alternative addresses"
 "For shipping to multiple family members and friends","For shipping to multiple family members and friends"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>."
-"Warning: No message defined for %s","Warning: No message defined for %s"
 "Backup options","Backup options"
-Warning,Warning
 "The widget %1 is no longer available. Select a different widget.","The widget %1 is no longer available. Select a different widget."
 "Recent items","Recent items"
 "Show all...","Show all..."
@@ -11141,8 +11228,6 @@ Translate,Translate
 "Please select one of the options above.","Please select one of the options above."
 "Please select a file.","Please select a file."
 "Please select one of the options.","Please select one of the options."
-"Please enter a value less than or equal to %s.","Please enter a value less than or equal to %s."
-"Please enter a value greater than or equal to %s.","Please enter a value greater than or equal to %s."
 "Card type does not match credit card number.","Card type does not match credit card number."
 "Credit card number does not match credit card type.","Credit card number does not match credit card type."
 "Incorrect credit card expiration date.","Incorrect credit card expiration date."
@@ -11162,11 +11247,11 @@ Translate,Translate
 "Please enter at least {0} characters.","Please enter at least {0} characters."
 "Please enter a value between {0} and {1} characters long.","Please enter a value between {0} and {1} characters long."
 "Please enter a value between {0} and {1}.","Please enter a value between {0} and {1}."
+"Please enter a value less than or equal to {0}.","Please enter a value less than or equal to {0}."
+"Please enter a value greater than or equal to {0}.","Please enter a value greater than or equal to {0}."
 "Please enter a date between %min and %max.","Please enter a date between %min and %max."
 "Please enter a valid full date.","Please enter a valid full date."
 "Please enter a valid month (1-12).","Please enter a valid month (1-12)."
 "Please enter a valid year (1900-%1).","Please enter a valid year (1900-%1)."
 "Please enter a valid day (1-%1).","Please enter a valid day (1-%1)."
 "Please enter a date from the past.","Please enter a date from the past."
-custom.definition,custom.definition
-component.behaviours,component.behaviours
