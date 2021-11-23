@@ -1,6 +1,6 @@
 {
     "name": "community-engineering/language-en_us",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "type": "magento2-language",
     "description": "en_US language package.",
     "license": [
